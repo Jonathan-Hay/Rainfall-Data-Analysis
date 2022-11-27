@@ -164,7 +164,7 @@ the years in which measurements were taken and greatest measurement
 for each year.
 """
 if __name__ == "__main__":
-    with open("rainfall.json") as file:
+    with open("rainfall-formatted.json") as file:
         data = json.load(file)
     station = WeatherStation()
     station.from_json(data)
